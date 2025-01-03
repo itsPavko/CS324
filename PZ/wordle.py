@@ -28,7 +28,7 @@ while loop:
                     output = output + attempt[i] + Back.RESET
             print(output)
             if word == attempt:
-                print("Congrats")
+                print("You win!")
                 inner_loop = inner_loop + 6
 
             inner_loop = inner_loop + 1
